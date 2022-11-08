@@ -3,23 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos.css">
     <title>River Plate</title>
 </head>
 <body>
-    <header>
-        <h1><img src="../img/escudoriver.jpg" alt="">Vení a jugar al más Grande</h1>
-            <nav class="menu">
-                <ul>
-                    <li><a href="../index.html"> Inicio </a></li>
-                    <li><a href="./institucional.html"> Institucional </a></li>
-                    <li><a href="./noticias.html"> Noticias </a></li>
-                    <li><a href="./multimedia.html"> Multimedia </a></li>
-                    <li><a href="./contacto.html"> Contacto </a></li>
-                </ul>
-            </nav>
-    </header>
+    <!-- Nav inicia -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <img src="../img/escudoriver.jpg" alt="">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Jugá en el mas grande</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./institucional.html">Institucional</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./multimedia.html">Multimedia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Nav termina -->
+    <!-- Jumbotron inicia -->
+    <div class="jumbotron">
+        <h1><strong>River Plate</strong></h1>
+        <p>Vivir y jugar con grandeza.</p>
+      </div>
+    <!-- Jumbotron termina -->
     <main>
         <h2>Cuerpo técnico</h2>
             <div class="tecnicos">
@@ -74,5 +103,14 @@
     <footer class="fondo">
         <img src="../img/fondo1.jpg" alt="">
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
 </body>
 </html>
