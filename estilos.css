@@ -1,16 +1,17 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-header{
-   background-color: crimson;
-   height: 200px;
-   border: 5px solid;
-   border-color: black;
+
+header {
+    background-color: crimson;
+    height: 200px;
+    border: 5px solid;
+    border-color: black;
 }
-h1{
+header h1 {
     color: antiquewhite;
     font-size: 20px;
     font-style: italic;
@@ -18,7 +19,7 @@ h1{
     text-decoration-line: underline;
     padding: 10px;
 }
-.menu{
+header .menu {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff;
@@ -27,89 +28,81 @@ h1{
     float: right;
     margin-bottom: 10px;
 }
-.menu a{
-    color: #000;
+header .menu a {
+    color: black;
 }
-.menu a:hover{
+header .menu a:hover {
     color: #900;
 }
-
-nav ul li{
+header nav ul li {
     display: inline-block;
 }
-header img{
+header img {
     height: 80px;
-    width: 100px;  
+    width: 100px;
     float: left;
 }
 
-h2{
-    color: #000;
+h2 {
+    color: black;
     font-size: 30px;
     text-align: center;
     text-decoration: underline;
-    
 }
 
-main{
+main {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.975),rgba(212, 23, 23, 0.05)), url(img/fondo1.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.975), rgba(212, 23, 23, 0.05)), url(img/fondo1.jpg);
     background-size: cover;
     background-position: center;
 }
-
-.equipom{
+main .equipom {
     width: 100%;
     font-size: 20px;
     text-align: center;
     padding: 20px;
 }
-
-.equipom img{
+main .equipom img {
     width: 100%;
     height: 50%;
     border: 5px solid;
     border-color: lightslategray;
     margin-bottom: 15px;
- }
-
-.equipom p{
+}
+main .equipom p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     padding: 5px;
 }
-
-.equipof{
+main .equipof {
     width: 100%;
     font-size: 20px;
     text-align: center;
     padding: 20px;
-    
-    
 }
-.equipof img{
+main .equipof img {
     width: 100%;
     height: 50%;
     border: 5px solid;
     border-color: lightslategray;
     margin-bottom: 15px;
- }
- .equipof p{
+}
+main .equipof p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-footer{
+footer {
     height: auto;
-    background-color: rgb(186, 197, 208);    
+    background-color: rgb(186, 197, 208);
 }
-marquee {
+footer marquee {
     font-size: 15px;
 }
-.redes{
+footer .redes {
     text-align: center;
     font-size: 30px;
     color: #900;
@@ -117,103 +110,103 @@ marquee {
     text-shadow: 0 0 10px #fff;
     padding: 20px;
 }
-.redes a{
+footer .redes a {
     color: #900;
 }
-.redes a:hover{
+footer .redes a:hover {
     color: aqua;
 }
 
-.navbar{
+.navbar {
     background-color: crimson;
     border: 5px solid;
     border-color: black;
     padding: 5px;
 }
-.navbar img{
+.navbar img {
     float: left;
     width: 100px;
     height: 80px;
 }
-.navbar-brand{
+.navbar .navbar-brand {
     text-shadow: 0 0 5px #000;
     padding: 5px;
 }
 
-.jumbotron{
+.jumbotron {
     background-image: url(img/fondoriver.png);
     background-size: cover;
     background-position: right;
     height: 150px;
     padding-top: 0;
     padding-left: 2px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     margin: 0;
 }
-.jumbotron h1{
+.jumbotron h1 {
     text-align: left;
-    color: #000;
+    color: black;
+    font-size: 30px;
 }
-.jumbotron p{
+.jumbotron p {
     text-align: right;
     padding-top: 25%;
 }
-.playon img{
+
+.playon img {
     width: 250px;
     height: 250px;
     margin-left: 10%;
     margin-bottom: 20px;
-    }
-.playon p{
+}
+.playon p {
     text-align: justify;
     padding: 20px;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.historia h3{
+.historia h3 {
     text-align: center;
     font-size: 30px;
-    text-decoration:double underline;
+    text-decoration: double underline;
     padding: 15px;
     margin-bottom: 20px;
 }
-.historia p{
-    padding: 5px;
+.historia p {
     text-align: justify;
     font-size: 15px;
     color: rgb(76, 4, 4);
     text-decoration: none;
     border: 4px solid;
-    border-color: #000;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin: 0;
+    border-color: black;
+    margin-left: 10%;
     padding: 20px;
+    width: 80%;
+    margin-bottom: 0;
 }
 
-.fondo img{
+.fondo img {
     height: auto;
     width: 100%;
- }
+}
 
- .noticias h2{
+.noticias h2 {
     text-align: center;
     font-size: 20px;
     padding: 5px;
     font-style: oblique;
 }
-.noticias img{
+.noticias img {
     padding: 5px;
     width: 320px;
     height: 250px;
 }
-.noticias h3{
+.noticias h3 {
     text-align: center;
     font-size: 15px;
 }
-
-.noticias p{
+.noticias p {
     font-size: 15px;
     text-align: center;
     padding: 5px;
@@ -229,107 +222,97 @@ marquee {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10, 200px);
-    grid-gap: 10px ;
+    grid-gap: 10px;
     padding: 15px;
 }
-
-.item{
-   width: 100%;
+.galeria .item {
+    width: 100%;
 }
-.item:hover{
+.galeria .item:hover {
     transform: scale(1.2);
     transition: all 1.5s;
 }
-
-.item1{
+.galeria .item1 {
     background-image: url(img/river1.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item2{
+.galeria .item2 {
     background-image: url(img/river2.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item3{
+.galeria .item3 {
     background-image: url(img/river3.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item4{
+.galeria .item4 {
     background-image: url(img/river4.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item5{
+.galeria .item5 {
     background-image: url(img/river5.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item6{
+.galeria .item6 {
     background-image: url(img/river6.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item7{
+.galeria .item7 {
     background-image: url(img/river7.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item8{
+.galeria .item8 {
     background-image: url(img/river8.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item9{
+.galeria .item9 {
     background-image: url(img/river9.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.item10{
+.galeria .item10 {
     background-image: url(img/river10.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
-.tecnicos{
-    margin-left: 10px ;
+.tecnicos {
+    margin-left: 10px;
     margin-right: 10px;
     border: 1px solid;
     border-color: dimgray;
     text-align: center;
     margin-top: 20px;
 }
-
-.tecnicos h3{
+.tecnicos h3 {
     font-size: 30px;
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
 }
-
-.tecnicos h4{
+.tecnicos h4 {
     font-size: 30px;
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
 }
-
-.tecnicos strong{
+.tecnicos strong {
     font-size: 20px;
     padding: 5px;
     margin-top: 5px;
 }
-
-.tecnicos p{
+.tecnicos p {
     text-align: center;
 }
 
-.formulario h5{
-    font-size: 30px;
-}
-
-.formulario{
+.formulario {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -337,139 +320,141 @@ marquee {
     padding-bottom: 10px;
 }
 
-@media only screen and (min-width:768px) {
-h1{
-    font-size: 40px;
-}
-.menu{
-    font-size: 15px;
-}
-header img{
+@media only screen and (min-width: 768px) {
+header img {
     width: 120px;
     height: 100px;
 }
-.equipom p{
-    font-size: 20px;
-}
-.equipof p{
-    font-size: 20px;
-}
-.equipom{
-    font-size: 30px;
-}
-.equipof{
-    font-size: 30px;
-}
-h2{
+header h1 {
     font-size: 40px;
 }
-
-.galeria{
+header .menu {
+    font-size: 15px;
+}
+main .equipom {
+    font-size: 30px;
+}
+main .equipom p {
+    font-size: 20px;
+}
+main .equipof {
+    font-size: 30px;
+}
+main .equipof p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 40px;
+}
+.galeria {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 200px);
 }
-marquee {
+footer marquee {
     font-size: 25px;
 }
-.redes{
+footer .redes {
     font-size: 40px;
 }
-.jumbotron p{
+.jumbotron p {
     padding-top: 5%;
     font-size: 18px;
 }
-.playon img{
+.playon img {
     width: 350px;
     height: 300px;
     margin-left: 28%;
 }
-.noticias h3{
+.noticias h3 {
     font-size: 20px;
 }
-.noticias img{
+.noticias img {
     width: 700px;
     height: 500px;
     margin-left: 5%;
 }
-.noticias p{
+.noticias p {
     font-size: 20px;
 }
-
 }
-
-@media only screen and (min-width:1023px) {
-.galeria{
+@media only screen and (min-width: 1023px) {
+.galeria {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 200px);
 }
-.item7{
+.galeria .item7 {
     grid-column: 2/4;
     background-size: cover;
     background-position: initial;
 }
-.item8{
+.galeria .item8 {
     grid-row: 3/5;
 }
-.playon img{
+.playon img {
     width: 400px;
     height: 350px;
     margin-left: 30%;
 }
-.noticias img{
+.noticias img {
     margin-left: 15%;
 }
-
+.historia p {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+@media only screen and (min-width: 1200px) {
+main fieldset {
+    display: flex;
+}
+main .equipom {
+    width: 50%;
+}
+main .equipof {
+    width: 50%;
+}
+.galeria {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.galeria .item1 {
+    grid-column: 3/5;
+    grid-row: 4/5;
+    background-position: top;
+}
+.galeria .item2 {
+    grid-row: 1/3;
+}
+.galeria .item4 {
+    grid-row: 1/3;
+    grid-column: 2;
+}
+.galeria .item6 {
+    grid-column: 3/5;
+    background-position: top;
+    background-size: cover;
+}
+.jumbotron p {
+    font-size: 25px;
+    padding-top: 2%;
+}
+.playon img {
+    width: 600px;
+    height: 550px;
+    margin-left: 25%;
+}
+.playon p {
+    font-size: 20px;
+}
+.historia h3 {
+    font-size: 40px;
+}
+.historia p {
+    font-size: 20px;
+}
+.noticias img {
+    margin-left: 20%;
+}
 }
 
-@media only screen and (min-width:1200px) {
-    .equipom{
-        width: 50%;
-    }
-    .equipof{ 
-        width: 50%;
-    }
-    fieldset{
-        display: flex;
-    }
-    .galeria{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .item4{
-        grid-row: 1/3;
-        grid-column: 2;
-    }
-    .item6{
-        grid-column: 3/5;
-        background-position: top;
-        background-size: cover;
-    }
-    .item1{
-        grid-column: 3/5;
-        grid-row: 4/5;
-        background-position: top;
-    }
-    .item2{
-        grid-row: 1/3;
-    }
-    .jumbotron p{
-        font-size: 25px;
-        padding-top: 2%;
-    }
-    .playon img{
-        width: 600px;
-        height: 550px;
-        margin-left: 25%;
-    }
-    .playon p{
-        font-size: 20px;
-    }
-    .historia h3{
-        font-size: 40px;
-    }
-    .historia p{
-        font-size: 20px;
-    }
-    .noticias img{
-        margin-left: 20%;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */
