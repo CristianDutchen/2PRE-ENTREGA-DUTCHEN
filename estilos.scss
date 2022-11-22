@@ -13,43 +13,7 @@ $backsize: cover;
     box-sizing: border-box; 
 }
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-header{
-    background-color: $color2;
-    height: 200px;
-    border: $border;
-    border-color: $color1;
-    h1{
-        color: antiquewhite;
-        font-size: $size2;
-        font-style: italic;
-        text-align: $aling;
-        text-decoration-line: underline;
-        padding: 10px;
-    }
-    .menu{
-        font-size: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: #fff;
-        padding: $padding1;
-        margin-top: 60px;
-        float: right;
-        margin-bottom: 10px;
-        a{
-            color: $color1;
-        }
-        a:hover{
-            color: #900;
-        }
-    }
-    nav ul li{
-        display: inline-block;
-    }
-    img{
-        height: 80px;
-        width: 100px;  
-        float: left;
-    }
-}
+
 h2{
     color: $color1;
     font-size: $size3;
